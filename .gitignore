@@ -1,0 +1,32 @@
+# Compiled object files
+*.o
+*.obj
+*.dll
+*.exe
+*.pdb
+*.class
+
+# Directories
+bin/
+obj/
+
+# Visual Studio folders
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Publish outputs
+.publish/
