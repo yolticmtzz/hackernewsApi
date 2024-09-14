@@ -1,30 +1,32 @@
 # Hacker News API
 
-## Descripción
+## Description
 
-Esta API proporciona acceso a los datos más recientes de Hacker News. Permite recuperar historias nuevas y aplicar filtros de búsqueda.
+This API provides access to the latest data from Hacker News. It allows you to retrieve new stories and apply search filters.
 
-## Funcionalidades
+## Features
 
-- **Obtener historias más recientes**: Recupera las historias más recientes desde Hacker News.
-- **Filtrar historias por término de búsqueda**: Aplica un filtro de búsqueda a las historias recuperadas.
-- **Paginación**: Soporta paginación para navegar a través de las historias.
+- **Get Newest Stories**: Retrieve the most recent stories from Hacker News.
+- **Filter Stories by Search Term**: Apply a search filter to the retrieved stories.
+- **Pagination**: Supports pagination to navigate through the stories.
 
 ## Endpoints
 
-### Obtener Historias Más Recientes
+### Get Newest Stories
 
-**GET** `/api/Stories/newest`
+**GET** /api/Stories/newest
 
-Recupera las historias más recientes desde Hacker News.
+Retrieves the most recent stories from Hacker News.
 
-**Parámetros de Consulta:**
+**Query Parameters:**
 
-- `searchTerm` (opcional): Término de búsqueda para filtrar las historias por título.
-- `page` (requerido): Número de la página de resultados.
-- `pageSize` (requerido): Número de historias por página.
+- `searchTerm` (optional): Search term to filter stories by title.
+- `page` (required): The page number of results.
+- `pageSize` (required): Number of stories per page.
 
-**Ejemplo de Solicitud:**
+**Example Request:**
 
 ```http
 GET /api/Stories/newest?page=1&pageSize=10&searchTerm=angular
+
+
