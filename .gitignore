@@ -30,3 +30,6 @@ packages/
 
 # Publish outputs
 .publish/
+
+secret.json
+
