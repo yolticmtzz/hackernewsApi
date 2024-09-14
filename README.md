@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # Hacker News API
 
 ## Description
@@ -28,5 +33,13 @@ Retrieves the most recent stories from Hacker News.
 
 ```http
 GET /api/Stories/newest?page=1&pageSize=10&searchTerm=angular
+```
+## Steps to RUN 
+I added a apiKey  security layer.
 
-#Steps to Run
+
+-add a secret.json file with this value 
+{
+  "ApiKey": "youApiKey"
+}
+
