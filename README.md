@@ -43,3 +43,12 @@ I added a apiKey  security layer.
   "ApiKey": "youApiKey"
 }
 
+##Challenges
+  - The implementation of Cahce with pagination , that need to changhe the each new request
+#How to solve them 
+  - Implement a key to identify the cache pagination
+##Opinion about the challenge
+  -  I really like this approach , because you need to create something real scenario, the only thing  its very compliceted to limit an scope because when you are developing you think "Hum will be nice if I add this or I think I need to add this"
+
+ 
+
